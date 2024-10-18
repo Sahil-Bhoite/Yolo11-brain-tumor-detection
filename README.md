@@ -49,7 +49,7 @@ This project implements an advanced brain tumor detection system using the lates
 - Architecture: YOLOv11
 - Training Dataset: Custom dataset of brain MRI scans
 - Accuracy: >95%
-- File: `model.pt` (not included in the repository due to size constraints)
+- File: `model.pt` (Included in the repository)
 
 ## Project Structure
 - `app.py`: Main Streamlit application
