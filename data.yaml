@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/BRAIN-TUMOR/train/images
+val: /content/drive/MyDrive/BRAIN-TUMOR/valid/images
+test: /content/drive/MyDrive/BRAIN-TUMOR/test/images
+
+nc: 1
+names: ['tumor']
+
+roboflow:
+  workspace: iotseecs
+  project: brain-tumor-yzzav
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/iotseecs/brain-tumor-yzzav/dataset/1
