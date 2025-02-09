@@ -59,7 +59,7 @@ def main():
             
             with col1:
                 st.subheader("📸 Uploaded MRI Scan")
-                st.image(image, caption="Original MRI Image", use_column_width=True)
+                st.image(image, caption="Original MRI Image", width=300)
             
             # Tumor Detection Button in sidebar
             if st.sidebar.button("🔍 Detect Tumor", key="detect_button"):
@@ -75,7 +75,7 @@ def main():
                                 st.image(
                                     annotated_image, 
                                     caption="Tumor Detection Visualization", 
-                                    use_column_width=True
+                                    width=300
                                 )
                                 
                                 # Display detection statistics with improved formatting
