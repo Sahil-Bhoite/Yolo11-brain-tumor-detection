@@ -75,7 +75,7 @@ def main():
                                 st.image(
                                     annotated_image, 
                                     caption="Tumor Detection Visualization", 
-                                    use_column_width=True
+                                    use_container_width=True
                                 )
                                 
                                 # Display detection statistics with improved formatting
