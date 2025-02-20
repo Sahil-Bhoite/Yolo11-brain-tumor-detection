@@ -1,6 +1,6 @@
 streamlit
 ultralytics
-opencv-python-headless
+opencv-python-headless==4.6.0.66  # Stable, truly headless version
 numpy
-pillow  # Ensure lowercase to avoid conflicts
-protobuf<4.22  # Streamlit may have issues with newer protobuf versions
+pillow
+protobuf<4.22
