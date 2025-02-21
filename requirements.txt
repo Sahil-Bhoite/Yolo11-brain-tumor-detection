@@ -1,6 +1,5 @@
 streamlit
+opencv-python-headless
+numpy
+Pillow
 ultralytics
-opencv-python-headless==4.6.0.66
-numpy>=1.24.4
-pillow
-protobuf<4.22
